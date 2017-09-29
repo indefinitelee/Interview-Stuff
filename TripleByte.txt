@@ -1,0 +1,31 @@
+Our interview will last between 1 and 2 hours, and will cover programming, system design, and general web knowledge.  The exact length and content of the interview varies. However, your interview will involve two or more of the sections listed below.
+We use Google Hangouts for the interview. For the coding portions, you're free to use whatever environment you're most comfortable in (we'll follow along over screen share). Please make sure that you have a Google account before the interview, and that you have a functioning microphone. We recommend finding a quiet, private place where you can talk and code without ambient noise or distractions.
+Programming
+
+In this section, we'll ask you to build a single-page web application that won't have to deal with routing or interacting with a server. You're welcome to use any framework, language, and build process you're most familiar with, but we highly recommend using a framework like React, Angular, or Vue instead of jQuery or vanilla Javascript. We also encourage you to use any other libraries you're comfortable with, e.g., Redux, Immutable.js, MobX, Bootstrap, etc. Make sure you set up any configuration or boilerplate before the interview starts so you don't waste time creating a project from scratch! create-react-app, angular-seed, angular-starter, and vue-webpack-boilerplate are great starting points.
+Short-answer discussion
+
+In this section, we ask questions in a range of technical topics, and discuss the answers with you. We'll dive deep into Javascript, CSS, HTTP, security, and algorithms. We do not expect anyone to be strong in all of these areas. The idea of this section is to find what each engineer knows the most about (we generally view the interview as a search for areas of strength). This section is difficult to prepare for specifically. However, the MDN Learning Area is a comprehensive guide to web technologies, and The Algorithm Design Manual is useful for the algorithmic portion.
+System Design
+
+In this final section, we'll talk through the design for a hypothetical web system. Here we look mostly for practical experience building websites / web systems. If you have this, then great! If you don't, that's fine too (we look for all kinds of strengths). However, we do recommend making sure you're familiar with databases, app servers, web servers, HTTP and how all these fit together behind a modern web system.
+General Advice / Preparation
+
+The best advice we can give on the programming tasks is to slow down, take a breath, and think about what you're going to program. Your interviewer will be happy to discuss designs, and be a sounding board for ideas. Taking a few minutes to iron out a good design before you start programming is worth it.
+We do care about code cleanliness (correct indentation, reasonable naming, modular structure). Because time is short in an interview, however, we don't need you to write full unit tests (unless this is an important part of your process).
+We want to see you at your best. Don’t feel pressured to study or prepare in any way, but if you want to, here’s how we think you can best do so:
+Practice programming under pressure. An interview is a stressful situation, and this sometimes affects performance (especially for less experienced programmers). We recommend that you practice programming under self-imposed time limits, to get used to this stress. It is often useful as well to do mock interviews with friends, where you ask each other programming questions under time limits.
+Practice talking about system design. The system design questions aim to test your experience designing large software systems. We want to see that you can think abstractly about how to build software systems out of smaller components; and we want to see that you are comfortable doing so. You can practice this by reading about system design, for example on highscalability.com.
+
+Hash tables
+Linked lists
+Breadth-first search, depth-first search
+Quicksort, merge sort
+Binary search
+2D arrays
+Dynamic arrays
+Binary search trees
+Dynamic programming
+Big-O analysis
+
+The Algorithm Design Manual by Steven Skiena. Chapters 3 through 5

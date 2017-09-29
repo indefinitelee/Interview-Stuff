@@ -1,0 +1,12 @@
+Create a function to determine whether a not a string is a substring anagram of another string. (ex: doggone, dog)
+Create a function that returns the factorial of the number being passed in. -- memoization
+      var f = [];
+      function factorial (n) {
+        if (n == 0 || n == 1)
+          return 1;
+        if (f[n] > 0)
+          return f[n];
+        return f[n] = factorial(n-1) * n;
+      }
+Fizz Buzz
+Create a function that determines if a value exists in a binary search tree.

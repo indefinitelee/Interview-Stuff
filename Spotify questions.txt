@@ -1,0 +1,7 @@
+ Reverse a string, reverse only words of a string, inline   implementation of reverse words in a string?
+
+ Check for balanced parentheses?
+
+ Check whether 2 strings are anagrams of each other?
+
+  Given an array of numbers, find the longest consecutive   subsequence.

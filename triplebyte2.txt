@@ -1,0 +1,51 @@
+Design an API to query a website for used cars. Include the ability for search parameters, such as make, model, mileage, year, etc.
+
+Bloom Filter
+
+Print an ascii square spiral
+
+What is HTTP?
+
+How would you design a system that supports a UI where users can search for used cars based on make, model, color, etc. ?
+
+Write a tic tac toe program
+
+Explain the concept of normalization of a database
+
+What: A way to reorganize the fields in a relational database to reduce duplication, and ensure data is organized in a logical fashion.
+
+Example of duplication in a table of students:
+
+StudentID Name StateOfOrigin Address CourseStudentIsTaking
+11 Alice OH 15 Lane Street Physics
+12 Bob CA 18 Home Lane Biology
+11 Alice OH 19 Star Blvd English
+13 Chuck WA 1 Main Street ???
+
+In the above table, if the student Chuck is not currently taking a class, we are unable to insert him into the list of students.
+
+Also, Alice appears twice, with different address and subject. We want a way to make sure that when she changes her address, we can update just one attribute in the database, not multiple times, to reduce mistakes we make. A better way to organize this is by having three tables instead:
+
+STUDENTS
+student_id
+NameOfStudent
+Address
+
+ROSTER
+student_id
+ClassTheyAreTaking
+
+ADDRESS
+student_id
+address
+state
+
+What are database indices, how are they used and how are they implemented?
+
+What: A data structure used to speed up look-up times in a database. This structure is sorted according to certain fields in the database schema, and contains a pointer to the record in the database for fast retrieval.
+
+Reason for having it: When we have a large database with a million rows, and we want to look up something according to certain fields, it would take O(N) time in an unordered database as we might need to visit every row in the database. However, with a sorted data index, we can search for the relevant record in O(log N) time using binary search.
+
+Implementation: Using a data structure such as a hash table / B-tree that allows for fast lookup times. A B-tree is likely the most preferable structure as it allows for O(log N) insertion and deletion. Additionally, it allows the user to perform queries that may return multiple tuples, such as "Find all the buses that arrive before 4pm".
+
+Needs additional time and space to enable fast look-ups: Requires more time during insertion and deletion to ensure the data structure remains sorted after such operations are performed. Also needs additional storage space for the database index.
