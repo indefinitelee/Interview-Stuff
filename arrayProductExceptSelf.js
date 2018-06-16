@@ -1,3 +1,8 @@
+// return a new array where each index is the product of all indices of the original array except its own
+// don't use division
+// do in O(n)
+// should return [672, 504, 288, 252, 672]
+
 function generateProducts(input) {
   let product = 1;
   let result = [];
